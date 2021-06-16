@@ -10,9 +10,12 @@ window.onload = (event) => {
   outputDiv = document.getElementById("output-text");
   // test this part:
   //outputDiv.innerHTML = "output text test";
+  outputDiv.innerHTML = String(teamsList);
 };
 
-// import json of all teams in competition, and separate quotes of commentators and managers - store in arrays
+// import js of all teams in competition, and separate quotes of commentators and managers - store in arrays
+
+// test json fetching
 
 // create first part of string: one team vs another, ensuring a team doesn't play itself
 
