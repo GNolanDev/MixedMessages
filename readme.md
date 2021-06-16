@@ -2,7 +2,7 @@
 
 ## Aim
 
-A project set by Codecademy as part of the full stack path. On clicking a button, a text string should be displayed with a random match-up between Euro 2020(21!) teams, followed by a random commentator comment and a random manager comment.
+A project set by Codecademy as part of the full stack path. On clicking a button, a text string should be displayed with a random match-up between Euro 2020(21!) teams, followed by a random commentator comment and a random manager comment. Enjoy the exquisite nonsense!
 
 ## Technologies
 
