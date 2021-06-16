@@ -1,8 +1,16 @@
-// script to add random football related comments to the text output of index.html
+// script adds random football related comments to the text output of index.html
 // test of runnability in node. NB: type 'node main.js' in bash
 // console.log("Script is working!");
 
 // get button and text output elements, & add event listener to enable button click function
+var startButton, outputDiv;
+window.onload = (event) => {
+  // assignment happens here to ensure page has loaded before attempting to get elements
+  startButton = document.getElementById("change-button");
+  outputDiv = document.getElementById("output-text");
+  // test this part:
+  //outputDiv.innerHTML = "output text test";
+};
 
 // import json of all teams in competition, and separate quotes of commentators and managers - store in arrays
 
