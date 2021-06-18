@@ -13,7 +13,7 @@ var teamsList = [
   "Netherlands",
   "North Macedonia",
   "Poland",
-  "portugal",
+  "Portugal",
   "Russia",
   "Scotland",
   "Slovakia",

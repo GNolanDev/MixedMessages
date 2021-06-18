@@ -3,7 +3,7 @@
 // console.log("Script is working!");
 
 // get button and text output elements, & add event listener to enable button click function
-var startButton, outputDiv;
+let startButton, outputDiv;
 window.onload = (event) => {
   // assignment happens here to ensure page has loaded before attempting to get elements
   startButton = document.getElementById("change-button");
@@ -13,11 +13,13 @@ window.onload = (event) => {
   //outputDiv.innerHTML = String(teamsList);
 };
 
-// import js of all teams in competition, and separate quotes of commentators and managers - store in arrays
-
-// test json fetching
-
 // create first part of string: one team vs another, ensuring a team doesn't play itself
+let team1 = teamsList[Math.floor(Math.random() * teamsList.length)];
+let team2 = teamsList[Math.floor(Math.random() * teamsList.length)];
+while (team2 === team1) {
+  team2 = teamsList[Math.floor(Math.random() * teamsList.length)];
+}
+console.log(team1, team2);
 
 // create remaining string by concatenating one random selection from each of the two quote stores
 
