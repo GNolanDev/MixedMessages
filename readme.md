@@ -12,7 +12,7 @@ A project set by Codecademy as part of the full stack path. On clicking a button
 
 ## Requirements
 
-To be hosted on GitHub Pages (link to follow), but will run on any modern browser by downloading all files to the same directory and opening _index.html_.
+Hosted on [GitHub Pages](https://gnolandev.github.io/MixedMessages/), but will run on any modern browser by downloading all files to the same directory and opening _index.html_.
 
 ## Contact
 
