@@ -1,4 +1,4 @@
-teamsList = [
+var teamsList = [
   "Austria",
   "Belgium",
   "Croatia",

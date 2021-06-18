@@ -10,7 +10,7 @@ window.onload = (event) => {
   outputDiv = document.getElementById("output-text");
   // test this part:
   //outputDiv.innerHTML = "output text test";
-  outputDiv.innerHTML = String(teamsList);
+  //outputDiv.innerHTML = String(teamsList);
 };
 
 // import js of all teams in competition, and separate quotes of commentators and managers - store in arrays
