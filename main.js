@@ -2,6 +2,25 @@
 // test of runnability in node. NB: type 'node main.js' in bash
 // console.log("Script is working!");
 
+// given an array of teams, return two teams, ensuring they aren't the same
+const getNewTeams = (tList) => {
+  t1 = tList[Math.floor(Math.random() * tList.length)];
+  t2 = tList[Math.floor(Math.random() * tList.length)];
+  while (t2 === t1) {
+    t2 = tList[Math.floor(Math.random() * tList.length)];
+  }
+  return [t1, t2];
+};
+
+// given an array of team names & an html element to output to, set innerHTML as the message string
+const showNewMessage = (tList, outputElement) => {
+  let outputString = "";
+  let [team1, team2] = getNewTeams(tList);
+  //console.log(team1, team2);
+  outputString = `In the fantastic game of ${team1} vs ${team2}, the best quotes of the day were...<br>`;
+  outputElement.innerHTML = outputString;
+};
+
 // get button and text output elements, & add event listener to enable button click function
 let startButton, outputDiv;
 window.onload = (event) => {
@@ -11,15 +30,10 @@ window.onload = (event) => {
   // test this part:
   //outputDiv.innerHTML = "output text test";
   //outputDiv.innerHTML = String(teamsList);
+  showNewMessage(teamsList, outputDiv);
 };
 
-// create first part of string: one team vs another, ensuring a team doesn't play itself
-let team1 = teamsList[Math.floor(Math.random() * teamsList.length)];
-let team2 = teamsList[Math.floor(Math.random() * teamsList.length)];
-while (team2 === team1) {
-  team2 = teamsList[Math.floor(Math.random() * teamsList.length)];
-}
-console.log(team1, team2);
+
 
 // create remaining string by concatenating one random selection from each of the two quote stores
 
