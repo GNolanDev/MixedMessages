@@ -20,7 +20,7 @@ const showNewMessage = (tList, cList, aList, outputElement) => {
   let afterMessage = getRandomMessage(aList);
   //console.log(team1, team2);
   outputString =
-    `In the fantastic game of ${team1} vs ${team2}, the best quotes of the day were...<br>` +
+    `In the fantastic game of <strong>${team1}</strong> vs <strong>${team2}</strong>, the best quotes of the day were...<br>` +
     `From the in-game commentary: <blockquote>"${commentatorMessage}"</blockquote><br>` +
     `From after match interviews: <blockquote>"${afterMessage}"</blockquote>`;
   outputElement.innerHTML = outputString;

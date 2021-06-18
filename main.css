@@ -1,5 +1,20 @@
 /* styling for MixedMessages project */
-footer {
+body {
+  background-color: green;
+  color: antiquewhite;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+button {
+  margin: 1em 0;
+}
+
+footer {
+  padding-top: 1em;
   width: 100%;
 }
