@@ -14,6 +14,9 @@ A project set by Codecademy as part of the full stack path. On clicking a button
 
 Hosted on [GitHub Pages](https://gnolandev.github.io/MixedMessages/), but will run on any modern browser by downloading all files to the same directory and opening _index.html_.
 
+## Screenshot
+![](https://github.com/GNolanDev/MixedMessages/blob/main/screenshots/sc_01.png)
+
 ## Contact
 
 Created by GNolanDev@gmail.com - comments gratefully received!
